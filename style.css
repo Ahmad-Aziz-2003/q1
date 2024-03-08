@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* text-decoration-color: black; */
+    background-color: whitesmoke
+}
+
+#color {
+    color: gray;
+}
+
+.lg-heading {
+    color: crimson;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.md-heading {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: crimson;
+}
+
+.container {
+    background-image: url(./final.png);
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border-top: 2px solid crimson;
+    border-left: 2px solid crimson;
+    border-right: 10px solid crimson;
+    border-bottom: 10px solid crimson; */
+    box-shadow: 0 0 20px rgba(205, 66, 66, 0.5);
+}
+
+.profile {
+    padding: 50px;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+
+.profileimage {
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+
+
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.info {
+    padding: 100px;
+
+}
+
+.parallel {
+    display: flex;
+}
+
+.textsize {
+    font-size: large;
+    font-weight: bold;
+}
+
+.textsize1 {
+    font-weight: bold;
+
+    font-size: 15px;
+}
+
+.symbol {
+    padding-right: 10px;
+    color: crimson;
+}
+
+.objective {
+    margin-left: 100px;
+    padding-right: 100px;
+    border-bottom: 2px solid #ccc;
+}
+
+.dividing {
+    padding-left: 100px;
+    padding-top: 0;
+    padding-right: 100px;
+    display: flex;
+}
+
+.edu-work,
+.skill_cert {
+    flex: 1;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.edu-work {
+    border-right: 2px solid #ccc;
+}
+
+ul {
+    list-style-type: disc;
+    /* You can use 'disc', 'circle', or 'square' for different bullet styles */
+    padding-left: 20px;
+    /* Adjust the padding as needed */
+}
